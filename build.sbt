@@ -1,4 +1,4 @@
-name := """util"""
+name := """misc"""
 
 organization := "com.typesane"
 
