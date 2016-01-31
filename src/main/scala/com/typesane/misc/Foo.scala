@@ -1,4 +1,4 @@
-package com.typesane.util
+package com.typesane.misc
 
 trait Foo {
 

@@ -4,13 +4,12 @@ organization := "com.typesane"
 
 licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
 
-javacOptions ++= Seq("-source", "1.6", "-target", "1.6")
-
-scalaVersion := "2.10.4"
-
-crossScalaVersions := Seq("2.10.4", "2.11.4")
+scalaVersion := "2.11.6"
 
 libraryDependencies ++= Seq(
+  "com.amazonaws" % "aws-java-sdk" % "1.10.30",
+  "com.sksamuel.scrimage" %% "scrimage-core" % "2.1.0",
+  "com.typesafe.akka" %% "akka-actor" % "2.4.1",
   "org.scalatest" %% "scalatest" % "2.2.1" % "test"
 )
 

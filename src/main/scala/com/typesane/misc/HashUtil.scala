@@ -1,9 +1,8 @@
-package com.typesane
+package com.typesane.misc
  
 import java.security.MessageDigest
 
 object HashUtil {
-
   /**
    * Generate SHA1 hash string for given `x`.
    */
